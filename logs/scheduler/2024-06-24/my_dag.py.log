@@ -1,0 +1,112 @@
+[2024-06-24T03:52:27.609+0000] {processor.py:161} INFO - Started process (PID=44) to work on /opt/airflow/dags/my_dag.py
+[2024-06-24T03:52:27.614+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-06-24T03:52:27.619+0000] {logging_mixin.py:188} INFO - [2024-06-24T03:52:27.618+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-06-24T03:52:27.714+0000] {logging_mixin.py:188} INFO - [2024-06-24T03:52:27.696+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 4, in <module>
+    from airflow.providers.papermill.operators.papermill import PapermillOperator
+ModuleNotFoundError: No module named 'airflow.providers.papermill'
+[2024-06-24T03:52:27.720+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-06-24T03:52:27.795+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag.py took 0.212 seconds
+[2024-06-24T03:52:58.510+0000] {processor.py:161} INFO - Started process (PID=106) to work on /opt/airflow/dags/my_dag.py
+[2024-06-24T03:52:58.512+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-06-24T03:52:58.515+0000] {logging_mixin.py:188} INFO - [2024-06-24T03:52:58.515+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-06-24T03:52:58.554+0000] {logging_mixin.py:188} INFO - [2024-06-24T03:52:58.547+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 4, in <module>
+    from airflow.providers.papermill.operators.papermill import PapermillOperator
+ModuleNotFoundError: No module named 'airflow.providers.papermill'
+[2024-06-24T03:52:58.557+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-06-24T03:52:58.589+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag.py took 0.088 seconds
+[2024-06-24T03:53:35.303+0000] {processor.py:161} INFO - Started process (PID=170) to work on /opt/airflow/dags/my_dag.py
+[2024-06-24T03:53:35.327+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-06-24T03:53:35.382+0000] {logging_mixin.py:188} INFO - [2024-06-24T03:53:35.381+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-06-24T03:53:35.751+0000] {logging_mixin.py:188} INFO - [2024-06-24T03:53:35.708+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 4, in <module>
+    from airflow.providers.papermill.operators.papermill import PapermillOperator
+ModuleNotFoundError: No module named 'airflow.providers.papermill'
+[2024-06-24T03:53:35.778+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-06-24T03:53:35.985+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag.py took 0.776 seconds
+[2024-06-24T03:54:26.751+0000] {processor.py:161} INFO - Started process (PID=229) to work on /opt/airflow/dags/my_dag.py
+[2024-06-24T03:54:26.756+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-06-24T03:54:26.764+0000] {logging_mixin.py:188} INFO - [2024-06-24T03:54:26.763+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-06-24T03:54:26.906+0000] {logging_mixin.py:188} INFO - [2024-06-24T03:54:26.882+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 4, in <module>
+    from airflow.providers.papermill.operators.papermill import PapermillOperator
+ModuleNotFoundError: No module named 'airflow.providers.papermill'
+[2024-06-24T03:54:26.915+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-06-24T03:54:27.033+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag.py took 0.306 seconds
+[2024-06-24T03:55:07.552+0000] {processor.py:161} INFO - Started process (PID=297) to work on /opt/airflow/dags/my_dag.py
+[2024-06-24T03:55:07.556+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-06-24T03:55:07.567+0000] {logging_mixin.py:188} INFO - [2024-06-24T03:55:07.565+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-06-24T03:55:07.645+0000] {logging_mixin.py:188} INFO - [2024-06-24T03:55:07.626+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 4, in <module>
+    from airflow.providers.papermill.operators.papermill import PapermillOperator
+ModuleNotFoundError: No module named 'airflow.providers.papermill'
+[2024-06-24T03:55:07.652+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-06-24T03:55:07.755+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag.py took 0.229 seconds
+[2024-06-24T03:55:41.106+0000] {processor.py:161} INFO - Started process (PID=358) to work on /opt/airflow/dags/my_dag.py
+[2024-06-24T03:55:41.150+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-06-24T03:55:41.226+0000] {logging_mixin.py:188} INFO - [2024-06-24T03:55:41.224+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-06-24T03:55:42.549+0000] {logging_mixin.py:188} INFO - [2024-06-24T03:55:42.079+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 4, in <module>
+    from airflow.providers.papermill.operators.papermill import PapermillOperator
+ModuleNotFoundError: No module named 'airflow.providers.papermill'
+[2024-06-24T03:55:42.714+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-06-24T03:55:43.003+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag.py took 2.071 seconds
+[2024-06-24T03:56:47.160+0000] {processor.py:161} INFO - Started process (PID=426) to work on /opt/airflow/dags/my_dag.py
+[2024-06-24T03:56:47.180+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-06-24T03:56:47.222+0000] {logging_mixin.py:188} INFO - [2024-06-24T03:56:47.208+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-06-24T03:56:47.356+0000] {logging_mixin.py:188} INFO - [2024-06-24T03:56:47.323+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 4, in <module>
+    from airflow.providers.papermill.operators.papermill import PapermillOperator
+ModuleNotFoundError: No module named 'airflow.providers.papermill'
+[2024-06-24T03:56:47.365+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-06-24T03:56:47.574+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag.py took 0.494 seconds
+[2024-06-24T03:57:51.349+0000] {processor.py:161} INFO - Started process (PID=488) to work on /opt/airflow/dags/my_dag.py
+[2024-06-24T03:57:51.357+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-06-24T03:57:51.382+0000] {logging_mixin.py:188} INFO - [2024-06-24T03:57:51.381+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-06-24T03:57:51.687+0000] {logging_mixin.py:188} INFO - [2024-06-24T03:57:51.625+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 4, in <module>
+    from airflow.providers.papermill.operators.papermill import PapermillOperator
+ModuleNotFoundError: No module named 'airflow.providers.papermill'
+[2024-06-24T03:57:51.701+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-06-24T03:57:51.933+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag.py took 0.640 seconds
