@@ -1,0 +1,69 @@
+[2024-06-26T07:44:49.490+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-26T07:44:49.707+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: update_allogistic.run_notebook manual__2024-06-26T07:44:01.584302+00:00 [queued]>
+[2024-06-26T07:44:49.813+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: update_allogistic.run_notebook manual__2024-06-26T07:44:01.584302+00:00 [queued]>
+[2024-06-26T07:44:49.824+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-06-26T07:44:50.257+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): run_notebook> on 2024-06-26 07:44:01.584302+00:00
+[2024-06-26T07:44:50.319+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'update_allogistic', 'run_notebook', 'manual__2024-06-26T07:44:01.584302+00:00', '--job-id', '39', '--raw', '--subdir', 'DAGS_FOLDER/allogistic.py', '--cfg-path', '/tmp/tmpw1zp8f_j']
+[2024-06-26T07:44:50.325+0000] {standard_task_runner.py:91} INFO - Job 39: Subtask run_notebook
+[2024-06-26T07:44:50.325+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=117) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-06-26T07:44:50.342+0000] {standard_task_runner.py:63} INFO - Started process 126 to run task
+[2024-06-26T07:44:50.752+0000] {task_command.py:426} INFO - Running <TaskInstance: update_allogistic.run_notebook manual__2024-06-26T07:44:01.584302+00:00 [running]> on host b92febf4feb2
+[2024-06-26T07:44:51.879+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='update_allogistic' AIRFLOW_CTX_TASK_ID='run_notebook' AIRFLOW_CTX_EXECUTION_DATE='2024-06-26T07:44:01.584302+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-26T07:44:01.584302+00:00'
+[2024-06-26T07:44:51.902+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-26T07:44:51.920+0000] {execute.py:83} INFO - Input Notebook:  /opt/***/dags/allogisticompiler.ipynb
+[2024-06-26T07:44:51.934+0000] {execute.py:84} INFO - Output Notebook: /opt/***/dags/output_notebook.ipynb
+[2024-06-26T07:44:54.493+0000] {logging_mixin.py:188} WARNING - Executing:   0%|          | 0/42 [00:00<?, ?cell/s]
+[2024-06-26T07:46:00.765+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-26T07:46:00.789+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/allogistic.py", line 33, in run_notebook
+    pm.execute_notebook(
+  File "/home/airflow/.local/lib/python3.12/site-packages/papermill/execute.py", line 116, in execute_notebook
+    nb = papermill_engines.execute_notebook_with_engine(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/papermill/engines.py", line 48, in execute_notebook_with_engine
+    return self.get_engine(engine_name).execute_notebook(nb, kernel_name, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/papermill/engines.py", line 368, in execute_notebook
+    nb_man.notebook_start()
+  File "/home/airflow/.local/lib/python3.12/site-packages/papermill/engines.py", line 76, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/papermill/engines.py", line 211, in notebook_start
+    self.save()
+  File "/home/airflow/.local/lib/python3.12/site-packages/papermill/engines.py", line 76, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/papermill/engines.py", line 152, in save
+    write_ipynb(self.nb, self.output_path)
+  File "/home/airflow/.local/lib/python3.12/site-packages/papermill/iorw.py", line 486, in write_ipynb
+    papermill_io.write(nbformat.writes(nb), path)
+  File "/home/airflow/.local/lib/python3.12/site-packages/papermill/iorw.py", line 102, in write
+    return self.get_handler(path, extensions).write(buf, path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/papermill/iorw.py", line 214, in write
+    with open(path, 'w', encoding="utf-8") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument: '/opt/airflow/dags/output_notebook.ipynb'
+[2024-06-26T07:46:00.989+0000] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=update_allogistic, task_id=run_notebook, run_id=manual__2024-06-26T07:44:01.584302+00:00, execution_date=20240626T074401, start_date=20240626T074449, end_date=20240626T074600
+[2024-06-26T07:46:02.750+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 39 for task run_notebook ([Errno 22] Invalid argument: '/opt/airflow/dags/output_notebook.ipynb'; 126)
+[2024-06-26T07:46:03.016+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-06-26T07:46:03.430+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-26T07:46:03.446+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

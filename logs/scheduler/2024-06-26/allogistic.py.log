@@ -219,3 +219,195 @@ ModuleNotFoundError: No module named 'papermill'
 [2024-06-26T07:46:43.579+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:46:43.577+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-06-26T07:46:44.002+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:46:44.002+0000] {dag.py:3954} INFO - Setting next_dagrun for update_allogistic to 2024-06-26 07:00:00+00:00, run_after=2024-06-26 08:00:00+00:00
 [2024-06-26T07:46:44.971+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/allogistic.py took 32.504 seconds
+[2024-06-26T07:47:54.552+0000] {processor.py:161} INFO - Started process (PID=464) to work on /opt/airflow/dags/allogistic.py
+[2024-06-26T07:47:54.554+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/allogistic.py for tasks to queue
+[2024-06-26T07:47:54.556+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:47:54.555+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/allogistic.py
+[2024-06-26T07:47:55.333+0000] {processor.py:840} INFO - DAG(s) 'update_allogistic' retrieved from /opt/airflow/dags/allogistic.py
+[2024-06-26T07:47:55.375+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:47:55.374+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T07:47:55.420+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:47:55.419+0000] {dag.py:3954} INFO - Setting next_dagrun for update_allogistic to 2024-06-26 07:00:00+00:00, run_after=2024-06-26 08:00:00+00:00
+[2024-06-26T07:47:55.469+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/allogistic.py took 0.929 seconds
+[2024-06-26T07:48:25.546+0000] {processor.py:161} INFO - Started process (PID=527) to work on /opt/airflow/dags/allogistic.py
+[2024-06-26T07:48:25.547+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/allogistic.py for tasks to queue
+[2024-06-26T07:48:25.549+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:48:25.549+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/allogistic.py
+[2024-06-26T07:48:25.834+0000] {processor.py:840} INFO - DAG(s) 'update_allogistic' retrieved from /opt/airflow/dags/allogistic.py
+[2024-06-26T07:48:25.849+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:48:25.848+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T07:48:25.864+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:48:25.864+0000] {dag.py:3954} INFO - Setting next_dagrun for update_allogistic to 2024-06-26 07:00:00+00:00, run_after=2024-06-26 08:00:00+00:00
+[2024-06-26T07:48:25.880+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/allogistic.py took 0.341 seconds
+[2024-06-26T07:48:56.692+0000] {processor.py:161} INFO - Started process (PID=593) to work on /opt/airflow/dags/allogistic.py
+[2024-06-26T07:48:56.693+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/allogistic.py for tasks to queue
+[2024-06-26T07:48:56.694+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:48:56.694+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/allogistic.py
+[2024-06-26T07:48:57.013+0000] {processor.py:840} INFO - DAG(s) 'update_allogistic' retrieved from /opt/airflow/dags/allogistic.py
+[2024-06-26T07:48:57.030+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:48:57.029+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T07:48:57.048+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:48:57.047+0000] {dag.py:3954} INFO - Setting next_dagrun for update_allogistic to 2024-06-26 07:00:00+00:00, run_after=2024-06-26 08:00:00+00:00
+[2024-06-26T07:48:57.063+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/allogistic.py took 0.377 seconds
+[2024-06-26T07:49:39.568+0000] {processor.py:161} INFO - Started process (PID=664) to work on /opt/airflow/dags/allogistic.py
+[2024-06-26T07:49:39.583+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/allogistic.py for tasks to queue
+[2024-06-26T07:49:39.599+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:49:39.594+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/allogistic.py
+[2024-06-26T07:49:44.848+0000] {processor.py:840} INFO - DAG(s) 'update_allogistic' retrieved from /opt/airflow/dags/allogistic.py
+[2024-06-26T07:49:44.999+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:49:44.997+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T07:49:45.191+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:49:45.190+0000] {dag.py:3954} INFO - Setting next_dagrun for update_allogistic to 2024-06-26 07:00:00+00:00, run_after=2024-06-26 08:00:00+00:00
+[2024-06-26T07:49:45.345+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/allogistic.py took 5.844 seconds
+[2024-06-26T07:50:16.646+0000] {processor.py:161} INFO - Started process (PID=729) to work on /opt/airflow/dags/allogistic.py
+[2024-06-26T07:50:16.659+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/allogistic.py for tasks to queue
+[2024-06-26T07:50:16.663+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:50:16.662+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/allogistic.py
+[2024-06-26T07:50:21.854+0000] {processor.py:840} INFO - DAG(s) 'update_allogistic' retrieved from /opt/airflow/dags/allogistic.py
+[2024-06-26T07:50:21.994+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:50:21.993+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T07:50:22.315+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:50:22.313+0000] {dag.py:3954} INFO - Setting next_dagrun for update_allogistic to 2024-06-26 07:00:00+00:00, run_after=2024-06-26 08:00:00+00:00
+[2024-06-26T07:50:22.504+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/allogistic.py took 5.911 seconds
+[2024-06-26T07:51:00.822+0000] {processor.py:161} INFO - Started process (PID=770) to work on /opt/airflow/dags/allogistic.py
+[2024-06-26T07:51:37.651+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/allogistic.py for tasks to queue
+[2024-06-26T07:51:37.656+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:51:37.654+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/allogistic.py
+[2024-06-26T07:51:45.229+0000] {processor.py:840} INFO - DAG(s) 'update_allogistic' retrieved from /opt/airflow/dags/allogistic.py
+[2024-06-26T07:51:45.533+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:51:45.518+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T07:51:45.911+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:51:45.900+0000] {dag.py:3954} INFO - Setting next_dagrun for update_allogistic to 2024-06-26 07:00:00+00:00, run_after=2024-06-26 08:00:00+00:00
+[2024-06-26T07:51:46.136+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/allogistic.py took 45.364 seconds
+[2024-06-26T07:52:18.884+0000] {processor.py:161} INFO - Started process (PID=825) to work on /opt/airflow/dags/allogistic.py
+[2024-06-26T07:52:18.899+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/allogistic.py for tasks to queue
+[2024-06-26T07:52:18.931+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:52:18.919+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/allogistic.py
+[2024-06-26T07:52:29.226+0000] {processor.py:840} INFO - DAG(s) 'update_allogistic' retrieved from /opt/airflow/dags/allogistic.py
+[2024-06-26T07:52:29.526+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:52:29.524+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T07:52:30.518+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:52:30.516+0000] {dag.py:3954} INFO - Setting next_dagrun for update_allogistic to 2024-06-26 07:00:00+00:00, run_after=2024-06-26 08:00:00+00:00
+[2024-06-26T07:52:31.032+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/allogistic.py took 12.263 seconds
+[2024-06-26T07:53:10.351+0000] {processor.py:161} INFO - Started process (PID=864) to work on /opt/airflow/dags/allogistic.py
+[2024-06-26T07:53:10.371+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/allogistic.py for tasks to queue
+[2024-06-26T07:53:10.389+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:53:10.388+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/allogistic.py
+[2024-06-26T07:53:19.014+0000] {processor.py:840} INFO - DAG(s) 'update_allogistic' retrieved from /opt/airflow/dags/allogistic.py
+[2024-06-26T07:53:19.254+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:53:19.253+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T07:53:19.767+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:53:19.766+0000] {dag.py:3954} INFO - Setting next_dagrun for update_allogistic to 2024-06-26 07:00:00+00:00, run_after=2024-06-26 08:00:00+00:00
+[2024-06-26T07:53:20.181+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/allogistic.py took 9.914 seconds
+[2024-06-26T07:53:56.955+0000] {processor.py:161} INFO - Started process (PID=912) to work on /opt/airflow/dags/allogistic.py
+[2024-06-26T07:54:36.280+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/allogistic.py for tasks to queue
+[2024-06-26T07:54:36.286+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:54:36.285+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/allogistic.py
+[2024-06-26T07:54:43.528+0000] {processor.py:840} INFO - DAG(s) 'update_allogistic' retrieved from /opt/airflow/dags/allogistic.py
+[2024-06-26T07:54:43.678+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:54:43.676+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T07:54:43.894+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:54:43.893+0000] {dag.py:3954} INFO - Setting next_dagrun for update_allogistic to 2024-06-26 07:00:00+00:00, run_after=2024-06-26 08:00:00+00:00
+[2024-06-26T07:54:44.113+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/allogistic.py took 47.264 seconds
+[2024-06-26T07:55:27.882+0000] {processor.py:161} INFO - Started process (PID=988) to work on /opt/airflow/dags/allogistic.py
+[2024-06-26T07:55:27.886+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/allogistic.py for tasks to queue
+[2024-06-26T07:55:27.900+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:55:27.899+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/allogistic.py
+[2024-06-26T07:55:32.029+0000] {processor.py:840} INFO - DAG(s) 'update_allogistic' retrieved from /opt/airflow/dags/allogistic.py
+[2024-06-26T07:55:32.147+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:55:32.145+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T07:55:32.275+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:55:32.274+0000] {dag.py:3954} INFO - Setting next_dagrun for update_allogistic to 2024-06-26 07:00:00+00:00, run_after=2024-06-26 08:00:00+00:00
+[2024-06-26T07:55:32.374+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/allogistic.py took 4.509 seconds
+[2024-06-26T07:56:03.010+0000] {processor.py:161} INFO - Started process (PID=1054) to work on /opt/airflow/dags/allogistic.py
+[2024-06-26T07:56:03.013+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/allogistic.py for tasks to queue
+[2024-06-26T07:56:03.015+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:56:03.014+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/allogistic.py
+[2024-06-26T07:56:04.516+0000] {processor.py:840} INFO - DAG(s) 'update_allogistic' retrieved from /opt/airflow/dags/allogistic.py
+[2024-06-26T07:56:04.607+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:56:04.605+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T07:56:04.705+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:56:04.704+0000] {dag.py:3954} INFO - Setting next_dagrun for update_allogistic to 2024-06-26 07:00:00+00:00, run_after=2024-06-26 08:00:00+00:00
+[2024-06-26T07:56:04.781+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/allogistic.py took 1.781 seconds
+[2024-06-26T07:56:35.036+0000] {processor.py:161} INFO - Started process (PID=1119) to work on /opt/airflow/dags/allogistic.py
+[2024-06-26T07:56:35.038+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/allogistic.py for tasks to queue
+[2024-06-26T07:56:35.040+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:56:35.039+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/allogistic.py
+[2024-06-26T07:56:35.793+0000] {processor.py:840} INFO - DAG(s) 'update_allogistic' retrieved from /opt/airflow/dags/allogistic.py
+[2024-06-26T07:56:35.840+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:56:35.838+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T07:56:35.884+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:56:35.884+0000] {dag.py:3954} INFO - Setting next_dagrun for update_allogistic to 2024-06-26 07:00:00+00:00, run_after=2024-06-26 08:00:00+00:00
+[2024-06-26T07:56:35.944+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/allogistic.py took 0.917 seconds
+[2024-06-26T07:57:07.279+0000] {processor.py:161} INFO - Started process (PID=1184) to work on /opt/airflow/dags/allogistic.py
+[2024-06-26T07:57:07.350+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/allogistic.py for tasks to queue
+[2024-06-26T07:57:07.419+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:57:07.416+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/allogistic.py
+[2024-06-26T07:57:13.952+0000] {processor.py:840} INFO - DAG(s) 'update_allogistic' retrieved from /opt/airflow/dags/allogistic.py
+[2024-06-26T07:57:14.109+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:57:14.108+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T07:57:14.259+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:57:14.258+0000] {dag.py:3954} INFO - Setting next_dagrun for update_allogistic to 2024-06-26 07:00:00+00:00, run_after=2024-06-26 08:00:00+00:00
+[2024-06-26T07:57:14.554+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/allogistic.py took 7.359 seconds
+[2024-06-26T07:58:13.359+0000] {processor.py:161} INFO - Started process (PID=1255) to work on /opt/airflow/dags/allogistic.py
+[2024-06-26T07:58:13.393+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/allogistic.py for tasks to queue
+[2024-06-26T07:58:13.703+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:58:13.701+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/allogistic.py
+[2024-06-26T07:58:21.407+0000] {processor.py:840} INFO - DAG(s) 'update_allogistic' retrieved from /opt/airflow/dags/allogistic.py
+[2024-06-26T07:58:21.710+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:58:21.639+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T07:58:21.946+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:58:21.946+0000] {dag.py:3954} INFO - Setting next_dagrun for update_allogistic to 2024-06-26 07:00:00+00:00, run_after=2024-06-26 08:00:00+00:00
+[2024-06-26T07:58:22.110+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/allogistic.py took 8.802 seconds
+[2024-06-26T07:58:52.459+0000] {processor.py:161} INFO - Started process (PID=1321) to work on /opt/airflow/dags/allogistic.py
+[2024-06-26T07:58:52.462+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/allogistic.py for tasks to queue
+[2024-06-26T07:58:52.464+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:58:52.464+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/allogistic.py
+[2024-06-26T07:58:56.207+0000] {processor.py:840} INFO - DAG(s) 'update_allogistic' retrieved from /opt/airflow/dags/allogistic.py
+[2024-06-26T07:58:56.416+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:58:56.414+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T07:58:56.660+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:58:56.647+0000] {dag.py:3954} INFO - Setting next_dagrun for update_allogistic to 2024-06-26 07:00:00+00:00, run_after=2024-06-26 08:00:00+00:00
+[2024-06-26T07:58:57.042+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/allogistic.py took 4.596 seconds
+[2024-06-26T07:59:30.989+0000] {processor.py:161} INFO - Started process (PID=1371) to work on /opt/airflow/dags/allogistic.py
+[2024-06-26T07:59:30.995+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/allogistic.py for tasks to queue
+[2024-06-26T07:59:31.026+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:59:31.024+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/allogistic.py
+[2024-06-26T07:59:39.144+0000] {processor.py:840} INFO - DAG(s) 'update_allogistic' retrieved from /opt/airflow/dags/allogistic.py
+[2024-06-26T07:59:39.313+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:59:39.311+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T07:59:39.533+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:59:39.532+0000] {dag.py:3954} INFO - Setting next_dagrun for update_allogistic to 2024-06-26 07:00:00+00:00, run_after=2024-06-26 08:00:00+00:00
+[2024-06-26T07:59:40.683+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/allogistic.py took 9.778 seconds
+[2024-06-26T08:02:03.567+0000] {processor.py:161} INFO - Started process (PID=1454) to work on /opt/airflow/dags/allogistic.py
+[2024-06-26T08:02:28.658+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/allogistic.py for tasks to queue
+[2024-06-26T08:02:29.569+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:02:28.855+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/allogistic.py
+[2024-06-26T08:02:41.874+0000] {processor.py:840} INFO - DAG(s) 'update_allogistic' retrieved from /opt/airflow/dags/allogistic.py
+[2024-06-26T08:02:42.845+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:02:42.835+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T08:02:43.048+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:02:43.047+0000] {dag.py:3954} INFO - Setting next_dagrun for update_allogistic to 2024-06-26 08:00:00+00:00, run_after=2024-06-26 09:00:00+00:00
+[2024-06-26T08:02:43.249+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/allogistic.py took 39.880 seconds
+[2024-06-26T08:04:15.843+0000] {processor.py:161} INFO - Started process (PID=1533) to work on /opt/airflow/dags/allogistic.py
+[2024-06-26T08:04:15.846+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/allogistic.py for tasks to queue
+[2024-06-26T08:04:15.851+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:04:15.850+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/allogistic.py
+[2024-06-26T08:04:30.343+0000] {processor.py:840} INFO - DAG(s) 'update_allogistic' retrieved from /opt/airflow/dags/allogistic.py
+[2024-06-26T08:04:31.299+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:04:31.298+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T08:04:31.512+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:04:31.510+0000] {dag.py:3954} INFO - Setting next_dagrun for update_allogistic to 2024-06-26 08:00:00+00:00, run_after=2024-06-26 09:00:00+00:00
+[2024-06-26T08:04:31.969+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/allogistic.py took 16.213 seconds
+[2024-06-26T08:05:15.580+0000] {processor.py:161} INFO - Started process (PID=1580) to work on /opt/airflow/dags/allogistic.py
+[2024-06-26T08:05:15.585+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/allogistic.py for tasks to queue
+[2024-06-26T08:05:15.613+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:05:15.601+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/allogistic.py
+[2024-06-26T08:05:24.159+0000] {processor.py:840} INFO - DAG(s) 'update_allogistic' retrieved from /opt/airflow/dags/allogistic.py
+[2024-06-26T08:05:24.398+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:05:24.394+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T08:05:24.602+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:05:24.601+0000] {dag.py:3954} INFO - Setting next_dagrun for update_allogistic to 2024-06-26 08:00:00+00:00, run_after=2024-06-26 09:00:00+00:00
+[2024-06-26T08:05:24.917+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/allogistic.py took 9.421 seconds
+[2024-06-26T08:06:57.933+0000] {processor.py:161} INFO - Started process (PID=1638) to work on /opt/airflow/dags/allogistic.py
+[2024-06-26T08:06:57.938+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/allogistic.py for tasks to queue
+[2024-06-26T08:06:57.953+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:06:57.951+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/allogistic.py
+[2024-06-26T08:07:11.036+0000] {processor.py:840} INFO - DAG(s) 'update_allogistic' retrieved from /opt/airflow/dags/allogistic.py
+[2024-06-26T08:07:13.389+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:07:13.386+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T08:07:16.626+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:07:16.625+0000] {dag.py:3954} INFO - Setting next_dagrun for update_allogistic to 2024-06-26 08:00:00+00:00, run_after=2024-06-26 09:00:00+00:00
+[2024-06-26T08:07:20.766+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/allogistic.py took 22.856 seconds
+[2024-06-26T08:09:25.095+0000] {processor.py:161} INFO - Started process (PID=1704) to work on /opt/airflow/dags/allogistic.py
+[2024-06-26T08:09:25.110+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/allogistic.py for tasks to queue
+[2024-06-26T08:09:25.123+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:09:25.113+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/allogistic.py
+[2024-06-26T08:09:37.775+0000] {processor.py:840} INFO - DAG(s) 'update_allogistic' retrieved from /opt/airflow/dags/allogistic.py
+[2024-06-26T08:09:38.045+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:09:38.043+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T08:09:38.309+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:09:38.308+0000] {dag.py:3954} INFO - Setting next_dagrun for update_allogistic to 2024-06-26 08:00:00+00:00, run_after=2024-06-26 09:00:00+00:00
+[2024-06-26T08:09:39.031+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/allogistic.py took 13.988 seconds
+[2024-06-26T08:10:37.608+0000] {processor.py:161} INFO - Started process (PID=1761) to work on /opt/airflow/dags/allogistic.py
+[2024-06-26T08:10:37.729+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/allogistic.py for tasks to queue
+[2024-06-26T08:10:37.736+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:10:37.735+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/allogistic.py
+[2024-06-26T08:10:44.937+0000] {processor.py:840} INFO - DAG(s) 'update_allogistic' retrieved from /opt/airflow/dags/allogistic.py
+[2024-06-26T08:10:45.083+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:10:45.082+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T08:10:45.261+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:10:45.260+0000] {dag.py:3954} INFO - Setting next_dagrun for update_allogistic to 2024-06-26 08:00:00+00:00, run_after=2024-06-26 09:00:00+00:00
+[2024-06-26T08:10:45.506+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/allogistic.py took 8.137 seconds
+[2024-06-26T08:11:58.551+0000] {processor.py:161} INFO - Started process (PID=1809) to work on /opt/airflow/dags/allogistic.py
+[2024-06-26T08:11:58.620+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/allogistic.py for tasks to queue
+[2024-06-26T08:11:58.658+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:11:58.655+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/allogistic.py
+[2024-06-26T08:12:12.327+0000] {processor.py:840} INFO - DAG(s) 'update_allogistic' retrieved from /opt/airflow/dags/allogistic.py
+[2024-06-26T08:12:16.583+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:12:16.582+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T08:12:16.772+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:12:16.771+0000] {dag.py:3954} INFO - Setting next_dagrun for update_allogistic to 2024-06-26 08:00:00+00:00, run_after=2024-06-26 09:00:00+00:00
+[2024-06-26T08:12:18.833+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/allogistic.py took 20.346 seconds
+[2024-06-26T08:13:09.277+0000] {processor.py:161} INFO - Started process (PID=1871) to work on /opt/airflow/dags/allogistic.py
+[2024-06-26T08:13:09.301+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/allogistic.py for tasks to queue
+[2024-06-26T08:13:09.307+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:13:09.305+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/allogistic.py
+[2024-06-26T08:13:16.425+0000] {processor.py:840} INFO - DAG(s) 'update_allogistic' retrieved from /opt/airflow/dags/allogistic.py
+[2024-06-26T08:13:16.596+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:13:16.594+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T08:13:16.832+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:13:16.831+0000] {dag.py:3954} INFO - Setting next_dagrun for update_allogistic to 2024-06-26 08:00:00+00:00, run_after=2024-06-26 09:00:00+00:00
+[2024-06-26T08:13:17.033+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/allogistic.py took 7.811 seconds
+[2024-06-26T08:14:08.080+0000] {processor.py:161} INFO - Started process (PID=1939) to work on /opt/airflow/dags/allogistic.py
+[2024-06-26T08:14:08.086+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/allogistic.py for tasks to queue
+[2024-06-26T08:14:08.097+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:14:08.096+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/allogistic.py
+[2024-06-26T08:14:15.806+0000] {processor.py:840} INFO - DAG(s) 'update_allogistic' retrieved from /opt/airflow/dags/allogistic.py
+[2024-06-26T08:14:15.996+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:14:15.994+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T08:14:16.242+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:14:16.241+0000] {dag.py:3954} INFO - Setting next_dagrun for update_allogistic to 2024-06-26 08:00:00+00:00, run_after=2024-06-26 09:00:00+00:00
+[2024-06-26T08:14:16.876+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/allogistic.py took 8.875 seconds
+[2024-06-26T08:15:02.392+0000] {processor.py:161} INFO - Started process (PID=2002) to work on /opt/airflow/dags/allogistic.py
+[2024-06-26T08:15:02.398+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/allogistic.py for tasks to queue
+[2024-06-26T08:15:02.410+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:15:02.408+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/allogistic.py
+[2024-06-26T08:15:09.064+0000] {processor.py:840} INFO - DAG(s) 'update_allogistic' retrieved from /opt/airflow/dags/allogistic.py
+[2024-06-26T08:15:09.241+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:15:09.239+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T08:15:09.433+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:15:09.421+0000] {dag.py:3954} INFO - Setting next_dagrun for update_allogistic to 2024-06-26 08:00:00+00:00, run_after=2024-06-26 09:00:00+00:00
+[2024-06-26T08:15:09.612+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/allogistic.py took 7.286 seconds
+[2024-06-26T08:15:45.298+0000] {processor.py:161} INFO - Started process (PID=2036) to work on /opt/airflow/dags/allogistic.py
+[2024-06-26T08:15:45.332+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/allogistic.py for tasks to queue
+[2024-06-26T08:15:45.371+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:15:45.370+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/allogistic.py
+[2024-06-26T08:15:52.503+0000] {processor.py:840} INFO - DAG(s) 'update_allogistic' retrieved from /opt/airflow/dags/allogistic.py
+[2024-06-26T08:15:52.669+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:15:52.659+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T08:15:52.822+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:15:52.821+0000] {dag.py:3954} INFO - Setting next_dagrun for update_allogistic to 2024-06-26 08:00:00+00:00, run_after=2024-06-26 09:00:00+00:00
+[2024-06-26T08:15:52.990+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/allogistic.py took 7.747 seconds
+[2024-06-26T08:16:57.501+0000] {processor.py:161} INFO - Started process (PID=2110) to work on /opt/airflow/dags/allogistic.py
+[2024-06-26T08:17:22.093+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/allogistic.py for tasks to queue
+[2024-06-26T08:17:22.100+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:17:22.097+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/allogistic.py

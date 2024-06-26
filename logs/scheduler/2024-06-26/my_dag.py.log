@@ -1090,3 +1090,423 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'pyautogui'
 [2024-06-26T07:46:27.219+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
 [2024-06-26T07:46:28.366+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag.py took 15.036 seconds
+[2024-06-26T07:47:54.746+0000] {processor.py:161} INFO - Started process (PID=465) to work on /opt/airflow/dags/my_dag.py
+[2024-06-26T07:47:54.748+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-06-26T07:47:54.751+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:47:54.750+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-06-26T07:47:54.790+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:47:54.783+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 30, in <module>
+    import pyautogui
+ModuleNotFoundError: No module named 'pyautogui'
+[2024-06-26T07:47:54.794+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-06-26T07:47:54.835+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag.py took 0.099 seconds
+[2024-06-26T07:48:25.554+0000] {processor.py:161} INFO - Started process (PID=528) to work on /opt/airflow/dags/my_dag.py
+[2024-06-26T07:48:25.555+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-06-26T07:48:25.556+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:48:25.556+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-06-26T07:48:25.568+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:48:25.565+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 30, in <module>
+    import pyautogui
+ModuleNotFoundError: No module named 'pyautogui'
+[2024-06-26T07:48:25.569+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-06-26T07:48:25.587+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag.py took 0.038 seconds
+[2024-06-26T07:48:55.631+0000] {processor.py:161} INFO - Started process (PID=592) to work on /opt/airflow/dags/my_dag.py
+[2024-06-26T07:48:55.632+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-06-26T07:48:55.632+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:48:55.632+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-06-26T07:48:55.643+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:48:55.641+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 30, in <module>
+    import pyautogui
+ModuleNotFoundError: No module named 'pyautogui'
+[2024-06-26T07:48:55.644+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-06-26T07:48:55.660+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag.py took 0.034 seconds
+[2024-06-26T07:49:27.652+0000] {processor.py:161} INFO - Started process (PID=643) to work on /opt/airflow/dags/my_dag.py
+[2024-06-26T07:49:27.674+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-06-26T07:49:27.689+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:49:27.687+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-06-26T07:49:27.968+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:49:27.896+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 30, in <module>
+    import pyautogui
+ModuleNotFoundError: No module named 'pyautogui'
+[2024-06-26T07:49:28.054+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-06-26T07:49:28.233+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag.py took 0.664 seconds
+[2024-06-26T07:49:59.209+0000] {processor.py:161} INFO - Started process (PID=695) to work on /opt/airflow/dags/my_dag.py
+[2024-06-26T07:49:59.212+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-06-26T07:49:59.216+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:49:59.215+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-06-26T07:49:59.337+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:49:59.313+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 30, in <module>
+    import pyautogui
+ModuleNotFoundError: No module named 'pyautogui'
+[2024-06-26T07:49:59.347+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-06-26T07:49:59.485+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag.py took 0.307 seconds
+[2024-06-26T07:50:34.092+0000] {processor.py:161} INFO - Started process (PID=747) to work on /opt/airflow/dags/my_dag.py
+[2024-06-26T07:50:34.117+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-06-26T07:50:34.122+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:50:34.121+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-06-26T07:50:35.040+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:50:35.007+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 30, in <module>
+    import pyautogui
+ModuleNotFoundError: No module named 'pyautogui'
+[2024-06-26T07:50:35.055+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-06-26T07:50:35.498+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag.py took 1.457 seconds
+[2024-06-26T07:52:19.745+0000] {processor.py:161} INFO - Started process (PID=826) to work on /opt/airflow/dags/my_dag.py
+[2024-06-26T07:52:19.779+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-06-26T07:52:19.854+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:52:19.853+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-06-26T07:52:21.080+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:52:20.698+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 30, in <module>
+    import pyautogui
+ModuleNotFoundError: No module named 'pyautogui'
+[2024-06-26T07:52:21.090+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-06-26T07:52:22.184+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag.py took 2.553 seconds
+[2024-06-26T07:53:14.321+0000] {processor.py:161} INFO - Started process (PID=865) to work on /opt/airflow/dags/my_dag.py
+[2024-06-26T07:53:14.377+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-06-26T07:53:14.431+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:53:14.430+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-06-26T07:53:15.944+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:53:15.921+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 30, in <module>
+    import pyautogui
+ModuleNotFoundError: No module named 'pyautogui'
+[2024-06-26T07:53:16.074+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-06-26T07:53:16.277+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag.py took 2.036 seconds
+[2024-06-26T07:54:39.021+0000] {processor.py:161} INFO - Started process (PID=919) to work on /opt/airflow/dags/my_dag.py
+[2024-06-26T07:54:39.070+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-06-26T07:54:39.082+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:54:39.080+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-06-26T07:54:39.431+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:54:39.397+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 30, in <module>
+    import pyautogui
+ModuleNotFoundError: No module named 'pyautogui'
+[2024-06-26T07:54:39.450+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-06-26T07:54:39.580+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag.py took 0.619 seconds
+[2024-06-26T07:55:28.497+0000] {processor.py:161} INFO - Started process (PID=989) to work on /opt/airflow/dags/my_dag.py
+[2024-06-26T07:55:28.509+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-06-26T07:55:28.514+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:55:28.513+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-06-26T07:55:28.619+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:55:28.595+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 30, in <module>
+    import pyautogui
+ModuleNotFoundError: No module named 'pyautogui'
+[2024-06-26T07:55:28.628+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-06-26T07:55:28.791+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag.py took 0.346 seconds
+[2024-06-26T07:55:58.926+0000] {processor.py:161} INFO - Started process (PID=1053) to work on /opt/airflow/dags/my_dag.py
+[2024-06-26T07:55:58.927+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-06-26T07:55:58.929+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:55:58.928+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-06-26T07:55:58.951+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:55:58.946+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 30, in <module>
+    import pyautogui
+ModuleNotFoundError: No module named 'pyautogui'
+[2024-06-26T07:55:58.952+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-06-26T07:55:58.979+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag.py took 0.061 seconds
+[2024-06-26T07:56:29.876+0000] {processor.py:161} INFO - Started process (PID=1118) to work on /opt/airflow/dags/my_dag.py
+[2024-06-26T07:56:29.880+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-06-26T07:56:29.883+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:56:29.882+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-06-26T07:56:29.954+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:56:29.938+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 30, in <module>
+    import pyautogui
+ModuleNotFoundError: No module named 'pyautogui'
+[2024-06-26T07:56:29.959+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-06-26T07:56:30.028+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag.py took 0.175 seconds
+[2024-06-26T07:57:00.358+0000] {processor.py:161} INFO - Started process (PID=1183) to work on /opt/airflow/dags/my_dag.py
+[2024-06-26T07:57:00.363+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-06-26T07:57:00.376+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:57:00.375+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-06-26T07:57:00.480+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:57:00.451+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 30, in <module>
+    import pyautogui
+ModuleNotFoundError: No module named 'pyautogui'
+[2024-06-26T07:57:00.487+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-06-26T07:57:00.556+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag.py took 0.249 seconds
+[2024-06-26T07:57:37.852+0000] {processor.py:161} INFO - Started process (PID=1219) to work on /opt/airflow/dags/my_dag.py
+[2024-06-26T07:57:37.880+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-06-26T07:57:37.899+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:57:37.897+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-06-26T07:57:38.301+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:57:38.243+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 30, in <module>
+    import pyautogui
+ModuleNotFoundError: No module named 'pyautogui'
+[2024-06-26T07:57:38.336+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-06-26T07:57:38.545+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag.py took 0.754 seconds
+[2024-06-26T07:58:15.138+0000] {processor.py:161} INFO - Started process (PID=1256) to work on /opt/airflow/dags/my_dag.py
+[2024-06-26T07:58:15.184+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-06-26T07:58:15.219+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:58:15.206+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-06-26T07:58:15.563+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:58:15.498+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 30, in <module>
+    import pyautogui
+ModuleNotFoundError: No module named 'pyautogui'
+[2024-06-26T07:58:15.600+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-06-26T07:58:16.032+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag.py took 0.985 seconds
+[2024-06-26T07:58:46.331+0000] {processor.py:161} INFO - Started process (PID=1320) to work on /opt/airflow/dags/my_dag.py
+[2024-06-26T07:58:46.332+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-06-26T07:58:46.334+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:58:46.333+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-06-26T07:58:46.358+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:58:46.351+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 30, in <module>
+    import pyautogui
+ModuleNotFoundError: No module named 'pyautogui'
+[2024-06-26T07:58:46.360+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-06-26T07:58:46.386+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag.py took 0.063 seconds
+[2024-06-26T07:59:32.997+0000] {processor.py:161} INFO - Started process (PID=1372) to work on /opt/airflow/dags/my_dag.py
+[2024-06-26T07:59:33.001+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-06-26T07:59:33.008+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:59:33.007+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-06-26T07:59:33.463+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:59:33.435+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 30, in <module>
+    import pyautogui
+ModuleNotFoundError: No module named 'pyautogui'
+[2024-06-26T07:59:33.474+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-06-26T07:59:34.438+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag.py took 1.522 seconds
+[2024-06-26T08:00:08.343+0000] {processor.py:161} INFO - Started process (PID=1403) to work on /opt/airflow/dags/my_dag.py
+[2024-06-26T08:00:08.359+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-06-26T08:00:08.427+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:00:08.361+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-06-26T08:00:08.645+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:00:08.615+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 30, in <module>
+    import pyautogui
+ModuleNotFoundError: No module named 'pyautogui'
+[2024-06-26T08:00:08.658+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-06-26T08:00:09.141+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag.py took 1.683 seconds
+[2024-06-26T08:03:02.945+0000] {processor.py:161} INFO - Started process (PID=1469) to work on /opt/airflow/dags/my_dag.py
+[2024-06-26T08:03:02.949+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-06-26T08:03:02.962+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:03:02.952+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-06-26T08:03:03.456+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:03:03.188+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 30, in <module>
+    import pyautogui
+ModuleNotFoundError: No module named 'pyautogui'
+[2024-06-26T08:03:03.500+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-06-26T08:03:04.514+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag.py took 1.650 seconds
+[2024-06-26T08:04:18.838+0000] {processor.py:161} INFO - Started process (PID=1534) to work on /opt/airflow/dags/my_dag.py
+[2024-06-26T08:04:18.842+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-06-26T08:04:18.847+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:04:18.845+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-06-26T08:04:18.940+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:04:18.914+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 30, in <module>
+    import pyautogui
+ModuleNotFoundError: No module named 'pyautogui'
+[2024-06-26T08:04:18.958+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-06-26T08:04:19.144+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag.py took 0.352 seconds
+[2024-06-26T08:05:20.737+0000] {processor.py:161} INFO - Started process (PID=1582) to work on /opt/airflow/dags/my_dag.py
+[2024-06-26T08:05:20.740+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-06-26T08:05:20.744+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:05:20.743+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-06-26T08:05:20.934+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:05:20.808+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 30, in <module>
+    import pyautogui
+ModuleNotFoundError: No module named 'pyautogui'
+[2024-06-26T08:05:20.942+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-06-26T08:05:21.216+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag.py took 0.535 seconds
+[2024-06-26T08:07:03.869+0000] {processor.py:161} INFO - Started process (PID=1640) to work on /opt/airflow/dags/my_dag.py
+[2024-06-26T08:07:03.886+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-06-26T08:07:03.900+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:07:03.898+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-06-26T08:07:04.097+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:07:04.048+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 30, in <module>
+    import pyautogui
+ModuleNotFoundError: No module named 'pyautogui'
+[2024-06-26T08:07:04.106+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-06-26T08:07:06.018+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag.py took 2.219 seconds
+[2024-06-26T08:09:34.018+0000] {processor.py:161} INFO - Started process (PID=1707) to work on /opt/airflow/dags/my_dag.py
+[2024-06-26T08:09:34.299+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-06-26T08:09:34.343+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:09:34.341+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-06-26T08:09:41.123+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:09:41.105+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 30, in <module>
+    import pyautogui
+ModuleNotFoundError: No module named 'pyautogui'
+[2024-06-26T08:09:41.131+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-06-26T08:09:43.116+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag.py took 9.135 seconds
+[2024-06-26T08:10:40.166+0000] {processor.py:161} INFO - Started process (PID=1762) to work on /opt/airflow/dags/my_dag.py
+[2024-06-26T08:10:40.174+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-06-26T08:10:40.182+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:10:40.178+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-06-26T08:10:40.766+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:10:40.654+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 30, in <module>
+    import pyautogui
+ModuleNotFoundError: No module named 'pyautogui'
+[2024-06-26T08:10:40.832+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-06-26T08:10:40.994+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag.py took 0.856 seconds
+[2024-06-26T08:12:01.396+0000] {processor.py:161} INFO - Started process (PID=1810) to work on /opt/airflow/dags/my_dag.py
+[2024-06-26T08:12:01.482+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-06-26T08:12:01.486+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:12:01.485+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-06-26T08:12:01.614+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:12:01.582+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 30, in <module>
+    import pyautogui
+ModuleNotFoundError: No module named 'pyautogui'
+[2024-06-26T08:12:01.628+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-06-26T08:12:02.018+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag.py took 0.881 seconds
+[2024-06-26T08:13:11.586+0000] {processor.py:161} INFO - Started process (PID=1872) to work on /opt/airflow/dags/my_dag.py
+[2024-06-26T08:13:11.609+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-06-26T08:13:11.616+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:13:11.612+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-06-26T08:13:12.519+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:13:12.501+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 30, in <module>
+    import pyautogui
+ModuleNotFoundError: No module named 'pyautogui'
+[2024-06-26T08:13:12.526+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-06-26T08:13:12.911+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag.py took 1.390 seconds
+[2024-06-26T08:14:08.144+0000] {processor.py:161} INFO - Started process (PID=1940) to work on /opt/airflow/dags/my_dag.py
+[2024-06-26T08:14:08.158+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-06-26T08:14:08.165+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:14:08.163+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-06-26T08:14:08.932+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:14:08.397+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 30, in <module>
+    import pyautogui
+ModuleNotFoundError: No module named 'pyautogui'
+[2024-06-26T08:14:09.276+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-06-26T08:14:09.651+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag.py took 1.575 seconds
+[2024-06-26T08:15:05.793+0000] {processor.py:161} INFO - Started process (PID=2003) to work on /opt/airflow/dags/my_dag.py
+[2024-06-26T08:15:05.798+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-06-26T08:15:05.811+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:15:05.809+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-06-26T08:15:06.045+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:15:06.010+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 30, in <module>
+    import pyautogui
+ModuleNotFoundError: No module named 'pyautogui'
+[2024-06-26T08:15:06.051+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-06-26T08:15:06.231+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag.py took 0.488 seconds
+[2024-06-26T08:15:45.473+0000] {processor.py:161} INFO - Started process (PID=2037) to work on /opt/airflow/dags/my_dag.py
+[2024-06-26T08:15:45.492+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-06-26T08:15:45.503+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:15:45.501+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-06-26T08:15:45.892+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:15:45.682+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 30, in <module>
+    import pyautogui
+ModuleNotFoundError: No module named 'pyautogui'
+[2024-06-26T08:15:45.922+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-06-26T08:15:46.113+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag.py took 0.711 seconds
+[2024-06-26T08:16:25.252+0000] {processor.py:161} INFO - Started process (PID=2079) to work on /opt/airflow/dags/my_dag.py
+[2024-06-26T08:16:25.258+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-06-26T08:16:25.264+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:16:25.263+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-06-26T08:16:25.476+0000] {logging_mixin.py:188} INFO - [2024-06-26T08:16:25.436+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 30, in <module>
+    import pyautogui
+ModuleNotFoundError: No module named 'pyautogui'
+[2024-06-26T08:16:25.486+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-06-26T08:16:25.689+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag.py took 0.475 seconds
