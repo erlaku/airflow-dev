@@ -1,0 +1,290 @@
+[2024-06-26T06:55:06.708+0000] {processor.py:161} INFO - Started process (PID=1399) to work on /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T06:55:07.162+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag - Copy.py for tasks to queue
+[2024-06-26T06:55:07.169+0000] {logging_mixin.py:188} INFO - [2024-06-26T06:55:07.168+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T06:55:08.002+0000] {logging_mixin.py:188} INFO - hello world
+[2024-06-26T06:55:08.223+0000] {processor.py:840} INFO - DAG(s) 'test_dag' retrieved from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T06:55:11.448+0000] {logging_mixin.py:188} INFO - [2024-06-26T06:55:11.445+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:test_dag
+[2024-06-26T06:55:11.938+0000] {logging_mixin.py:188} INFO - [2024-06-26T06:55:11.937+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:test_dag
+[2024-06-26T06:55:12.119+0000] {logging_mixin.py:188} INFO - [2024-06-26T06:55:12.118+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:test_dag
+[2024-06-26T06:55:12.820+0000] {logging_mixin.py:188} INFO - [2024-06-26T06:55:12.819+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T06:55:13.494+0000] {logging_mixin.py:188} INFO - [2024-06-26T06:55:13.494+0000] {dag.py:3118} INFO - Creating ORM DAG for test_dag
+[2024-06-26T06:55:13.671+0000] {logging_mixin.py:188} INFO - [2024-06-26T06:55:13.669+0000] {dag.py:3954} INFO - Setting next_dagrun for test_dag to 2021-01-01 00:00:00+00:00, run_after=2021-01-02 00:00:00+00:00
+[2024-06-26T06:55:14.607+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag - Copy.py took 7.998 seconds
+[2024-06-26T06:56:16.174+0000] {processor.py:161} INFO - Started process (PID=1466) to work on /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T06:56:16.643+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag - Copy.py for tasks to queue
+[2024-06-26T06:56:16.721+0000] {logging_mixin.py:188} INFO - [2024-06-26T06:56:16.719+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T06:56:18.027+0000] {logging_mixin.py:188} INFO - hello world
+[2024-06-26T06:56:18.045+0000] {processor.py:840} INFO - DAG(s) 'test_dag' retrieved from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T06:56:18.524+0000] {logging_mixin.py:188} INFO - [2024-06-26T06:56:18.512+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T06:56:18.930+0000] {logging_mixin.py:188} INFO - [2024-06-26T06:56:18.916+0000] {dag.py:3954} INFO - Setting next_dagrun for test_dag to 2021-01-01 00:00:00+00:00, run_after=2021-01-02 00:00:00+00:00
+[2024-06-26T06:56:19.193+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag - Copy.py took 3.101 seconds
+[2024-06-26T06:57:09.754+0000] {processor.py:161} INFO - Started process (PID=1533) to work on /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T06:57:09.757+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag - Copy.py for tasks to queue
+[2024-06-26T06:57:09.762+0000] {logging_mixin.py:188} INFO - [2024-06-26T06:57:09.761+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T06:57:09.995+0000] {logging_mixin.py:188} INFO - hello world
+[2024-06-26T06:57:10.003+0000] {processor.py:840} INFO - DAG(s) 'test_dag' retrieved from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T06:57:10.191+0000] {logging_mixin.py:188} INFO - [2024-06-26T06:57:10.190+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T06:57:10.511+0000] {logging_mixin.py:188} INFO - [2024-06-26T06:57:10.510+0000] {dag.py:3954} INFO - Setting next_dagrun for test_dag to 2021-01-01 00:00:00+00:00, run_after=2021-01-02 00:00:00+00:00
+[2024-06-26T06:57:10.806+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag - Copy.py took 1.081 seconds
+[2024-06-26T06:57:53.599+0000] {processor.py:161} INFO - Started process (PID=1583) to work on /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T06:57:53.615+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag - Copy.py for tasks to queue
+[2024-06-26T06:57:53.645+0000] {logging_mixin.py:188} INFO - [2024-06-26T06:57:53.643+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T06:57:54.852+0000] {logging_mixin.py:188} INFO - hello world
+[2024-06-26T06:57:54.895+0000] {processor.py:840} INFO - DAG(s) 'test_dag' retrieved from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T06:57:55.160+0000] {logging_mixin.py:188} INFO - [2024-06-26T06:57:55.148+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T06:57:55.521+0000] {logging_mixin.py:188} INFO - [2024-06-26T06:57:55.520+0000] {dag.py:3954} INFO - Setting next_dagrun for test_dag to 2021-01-01 00:00:00+00:00, run_after=2021-01-02 00:00:00+00:00
+[2024-06-26T06:57:55.870+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag - Copy.py took 2.325 seconds
+[2024-06-26T06:58:46.358+0000] {processor.py:161} INFO - Started process (PID=1652) to work on /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T06:58:46.362+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag - Copy.py for tasks to queue
+[2024-06-26T06:58:46.368+0000] {logging_mixin.py:188} INFO - [2024-06-26T06:58:46.366+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T06:58:46.448+0000] {logging_mixin.py:188} INFO - hello world
+[2024-06-26T06:58:46.455+0000] {processor.py:840} INFO - DAG(s) 'test_dag' retrieved from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T06:58:46.543+0000] {logging_mixin.py:188} INFO - [2024-06-26T06:58:46.541+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T06:58:46.669+0000] {logging_mixin.py:188} INFO - [2024-06-26T06:58:46.668+0000] {dag.py:3954} INFO - Setting next_dagrun for test_dag to 2021-01-01 00:00:00+00:00, run_after=2021-01-02 00:00:00+00:00
+[2024-06-26T06:58:46.763+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag - Copy.py took 0.433 seconds
+[2024-06-26T06:59:25.588+0000] {processor.py:161} INFO - Started process (PID=1709) to work on /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T06:59:25.592+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag - Copy.py for tasks to queue
+[2024-06-26T06:59:25.597+0000] {logging_mixin.py:188} INFO - [2024-06-26T06:59:25.595+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T06:59:25.669+0000] {logging_mixin.py:188} INFO - hello world
+[2024-06-26T06:59:25.675+0000] {processor.py:840} INFO - DAG(s) 'test_dag' retrieved from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T06:59:25.780+0000] {logging_mixin.py:188} INFO - [2024-06-26T06:59:25.778+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T06:59:25.908+0000] {logging_mixin.py:188} INFO - [2024-06-26T06:59:25.907+0000] {dag.py:3954} INFO - Setting next_dagrun for test_dag to 2021-01-01 00:00:00+00:00, run_after=2021-01-02 00:00:00+00:00
+[2024-06-26T06:59:26.018+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag - Copy.py took 0.450 seconds
+[2024-06-26T07:00:02.327+0000] {processor.py:161} INFO - Started process (PID=1765) to work on /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:00:02.341+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag - Copy.py for tasks to queue
+[2024-06-26T07:00:02.347+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:00:02.345+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:00:02.441+0000] {logging_mixin.py:188} INFO - hello world
+[2024-06-26T07:00:02.448+0000] {processor.py:840} INFO - DAG(s) 'test_dag' retrieved from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:00:02.578+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:00:02.576+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T07:00:02.721+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:00:02.718+0000] {dag.py:3954} INFO - Setting next_dagrun for test_dag to 2021-01-01 00:00:00+00:00, run_after=2021-01-02 00:00:00+00:00
+[2024-06-26T07:00:02.831+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag - Copy.py took 0.530 seconds
+[2024-06-26T07:00:33.630+0000] {processor.py:161} INFO - Started process (PID=1828) to work on /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:00:33.631+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag - Copy.py for tasks to queue
+[2024-06-26T07:00:33.632+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:00:33.632+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:00:33.650+0000] {logging_mixin.py:188} INFO - hello world
+[2024-06-26T07:00:33.651+0000] {processor.py:840} INFO - DAG(s) 'test_dag' retrieved from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:00:33.668+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:00:33.668+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T07:00:33.688+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:00:33.688+0000] {dag.py:3954} INFO - Setting next_dagrun for test_dag to 2021-01-01 00:00:00+00:00, run_after=2021-01-02 00:00:00+00:00
+[2024-06-26T07:00:33.708+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag - Copy.py took 0.083 seconds
+[2024-06-26T07:01:04.232+0000] {processor.py:161} INFO - Started process (PID=1891) to work on /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:01:04.233+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag - Copy.py for tasks to queue
+[2024-06-26T07:01:04.234+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:01:04.234+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:01:04.253+0000] {logging_mixin.py:188} INFO - hello world
+[2024-06-26T07:01:04.254+0000] {processor.py:840} INFO - DAG(s) 'test_dag' retrieved from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:01:04.273+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:01:04.273+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T07:01:04.296+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:01:04.296+0000] {dag.py:3954} INFO - Setting next_dagrun for test_dag to 2021-01-01 00:00:00+00:00, run_after=2021-01-02 00:00:00+00:00
+[2024-06-26T07:01:04.317+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag - Copy.py took 0.090 seconds
+[2024-06-26T07:01:35.004+0000] {processor.py:161} INFO - Started process (PID=1954) to work on /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:01:35.006+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag - Copy.py for tasks to queue
+[2024-06-26T07:01:35.008+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:01:35.008+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:01:35.050+0000] {logging_mixin.py:188} INFO - hello world
+[2024-06-26T07:01:35.053+0000] {processor.py:840} INFO - DAG(s) 'test_dag' retrieved from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:01:35.102+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:01:35.101+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T07:01:35.155+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:01:35.155+0000] {dag.py:3954} INFO - Setting next_dagrun for test_dag to 2021-01-01 00:00:00+00:00, run_after=2021-01-02 00:00:00+00:00
+[2024-06-26T07:01:35.203+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag - Copy.py took 0.211 seconds
+[2024-06-26T07:02:05.832+0000] {processor.py:161} INFO - Started process (PID=2017) to work on /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:02:05.833+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag - Copy.py for tasks to queue
+[2024-06-26T07:02:05.833+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:02:05.833+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:02:05.846+0000] {logging_mixin.py:188} INFO - hello world
+[2024-06-26T07:02:05.847+0000] {processor.py:840} INFO - DAG(s) 'test_dag' retrieved from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:02:05.863+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:02:05.863+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T07:02:05.883+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:02:05.883+0000] {dag.py:3954} INFO - Setting next_dagrun for test_dag to 2021-01-01 00:00:00+00:00, run_after=2021-01-02 00:00:00+00:00
+[2024-06-26T07:02:05.900+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag - Copy.py took 0.073 seconds
+[2024-06-26T07:02:36.458+0000] {processor.py:161} INFO - Started process (PID=2080) to work on /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:02:36.459+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag - Copy.py for tasks to queue
+[2024-06-26T07:02:36.460+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:02:36.460+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:02:36.471+0000] {logging_mixin.py:188} INFO - hello world
+[2024-06-26T07:02:36.472+0000] {processor.py:840} INFO - DAG(s) 'test_dag' retrieved from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:02:36.489+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:02:36.488+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T07:02:36.615+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:02:36.614+0000] {dag.py:3954} INFO - Setting next_dagrun for test_dag to 2021-01-01 00:00:00+00:00, run_after=2021-01-02 00:00:00+00:00
+[2024-06-26T07:02:36.633+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag - Copy.py took 0.179 seconds
+[2024-06-26T07:03:06.989+0000] {processor.py:161} INFO - Started process (PID=2143) to work on /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:03:06.991+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag - Copy.py for tasks to queue
+[2024-06-26T07:03:06.993+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:03:06.993+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:03:07.020+0000] {logging_mixin.py:188} INFO - hello world
+[2024-06-26T07:03:07.022+0000] {processor.py:840} INFO - DAG(s) 'test_dag' retrieved from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:03:07.051+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:03:07.050+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-26T07:03:07.084+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:03:07.084+0000] {dag.py:3954} INFO - Setting next_dagrun for test_dag to 2021-01-01 00:00:00+00:00, run_after=2021-01-02 00:00:00+00:00
+[2024-06-26T07:03:07.121+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag - Copy.py took 0.141 seconds
+[2024-06-26T07:03:14.780+0000] {processor.py:161} INFO - Started process (PID=2172) to work on /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:03:14.782+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag - Copy.py for tasks to queue
+[2024-06-26T07:03:14.786+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:03:14.785+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:03:14.902+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:03:14.878+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag - Copy.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag - Copy.py", line 5, in <module>
+    import papermill as pm
+ModuleNotFoundError: No module named 'papermill'
+[2024-06-26T07:03:14.908+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:03:14.986+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag - Copy.py took 0.221 seconds
+[2024-06-26T07:03:26.370+0000] {processor.py:161} INFO - Started process (PID=2185) to work on /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:03:26.371+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag - Copy.py for tasks to queue
+[2024-06-26T07:03:26.373+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:03:26.372+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:03:26.418+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:03:26.414+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag - Copy.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag - Copy.py", line 5, in <module>
+    import papermill as pm
+ModuleNotFoundError: No module named 'papermill'
+[2024-06-26T07:03:26.421+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:03:26.448+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag - Copy.py took 0.085 seconds
+[2024-06-26T07:03:33.926+0000] {processor.py:161} INFO - Started process (PID=2202) to work on /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:03:33.928+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag - Copy.py for tasks to queue
+[2024-06-26T07:03:33.930+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:03:33.929+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:03:33.986+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:03:33.978+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag - Copy.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag - Copy.py", line 5, in <module>
+    import papermill as pm
+ModuleNotFoundError: No module named 'papermill'
+[2024-06-26T07:03:34.011+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:03:34.042+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag - Copy.py took 0.125 seconds
+[2024-06-26T07:03:46.498+0000] {processor.py:161} INFO - Started process (PID=2238) to work on /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:03:46.500+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag - Copy.py for tasks to queue
+[2024-06-26T07:03:46.502+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:03:46.502+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:03:46.557+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:03:46.549+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag - Copy.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag - Copy.py", line 5, in <module>
+    import papermill as pm
+ModuleNotFoundError: No module named 'papermill'
+[2024-06-26T07:03:46.561+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:03:46.600+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag - Copy.py took 0.112 seconds
+[2024-06-26T07:03:48.954+0000] {processor.py:161} INFO - Started process (PID=2243) to work on /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:03:48.956+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag - Copy.py for tasks to queue
+[2024-06-26T07:03:48.959+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:03:48.958+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:03:49.033+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:03:49.010+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag - Copy.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag - Copy.py", line 5, in <module>
+    import papermill as pm
+ModuleNotFoundError: No module named 'papermill'
+[2024-06-26T07:03:49.041+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:03:49.147+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag - Copy.py took 0.206 seconds
+[2024-06-26T07:04:19.507+0000] {processor.py:161} INFO - Started process (PID=2304) to work on /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:04:19.508+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag - Copy.py for tasks to queue
+[2024-06-26T07:04:19.509+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:04:19.509+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:04:19.525+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:04:19.522+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag - Copy.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag - Copy.py", line 5, in <module>
+    import papermill as pm
+ModuleNotFoundError: No module named 'papermill'
+[2024-06-26T07:04:19.526+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:04:19.545+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag - Copy.py took 0.042 seconds
+[2024-06-26T07:04:25.915+0000] {processor.py:161} INFO - Started process (PID=2314) to work on /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:04:25.917+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag - Copy.py for tasks to queue
+[2024-06-26T07:04:25.919+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:04:25.918+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:04:25.987+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:04:25.977+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag - Copy.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag - Copy.py", line 5, in <module>
+    import papermill as pm
+ModuleNotFoundError: No module named 'papermill'
+[2024-06-26T07:04:25.991+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:04:26.058+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag - Copy.py took 0.155 seconds
+[2024-06-26T07:04:56.755+0000] {processor.py:161} INFO - Started process (PID=2376) to work on /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:04:56.756+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag - Copy.py for tasks to queue
+[2024-06-26T07:04:56.758+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:04:56.758+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:04:56.780+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:04:56.775+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag - Copy.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag - Copy.py", line 5, in <module>
+    import papermill as pm
+ModuleNotFoundError: No module named 'papermill'
+[2024-06-26T07:04:56.781+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:04:56.802+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag - Copy.py took 0.052 seconds
+[2024-06-26T07:05:09.180+0000] {processor.py:161} INFO - Started process (PID=2400) to work on /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:05:09.182+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag - Copy.py for tasks to queue
+[2024-06-26T07:05:09.183+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:05:09.183+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:05:09.228+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:05:09.223+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag - Copy.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag - Copy.py", line 5, in <module>
+    import papermill as pm
+ModuleNotFoundError: No module named 'papermill'
+[2024-06-26T07:05:09.230+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:05:09.260+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag - Copy.py took 0.088 seconds
+[2024-06-26T07:05:10.429+0000] {processor.py:161} INFO - Started process (PID=2403) to work on /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:05:10.430+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag - Copy.py for tasks to queue
+[2024-06-26T07:05:10.433+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:05:10.432+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:05:10.503+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:05:10.491+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag - Copy.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag - Copy.py", line 5, in <module>
+    import papermill as pm
+ModuleNotFoundError: No module named 'papermill'
+[2024-06-26T07:05:10.507+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:05:10.551+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag - Copy.py took 0.132 seconds
+[2024-06-26T07:05:12.660+0000] {processor.py:161} INFO - Started process (PID=2405) to work on /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:05:12.663+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag - Copy.py for tasks to queue
+[2024-06-26T07:05:12.667+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:05:12.666+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:05:12.901+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:05:12.850+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag - Copy.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag - Copy.py", line 5, in <module>
+    import papermill as pm
+ModuleNotFoundError: No module named 'papermill'
+[2024-06-26T07:05:12.908+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:05:12.999+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag - Copy.py took 0.392 seconds
+[2024-06-26T07:05:29.780+0000] {processor.py:161} INFO - Started process (PID=2444) to work on /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:05:29.782+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag - Copy.py for tasks to queue
+[2024-06-26T07:05:29.783+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:05:29.783+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:05:29.838+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:05:29.829+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag - Copy.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag - Copy.py", line 5, in <module>
+    import papermill as pm
+ModuleNotFoundError: No module named 'papermill'
+[2024-06-26T07:05:29.841+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:05:29.877+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag - Copy.py took 0.107 seconds
+[2024-06-26T07:05:30.990+0000] {processor.py:161} INFO - Started process (PID=2447) to work on /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:05:30.993+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_dag - Copy.py for tasks to queue
+[2024-06-26T07:05:30.997+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:05:30.996+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:05:31.070+0000] {logging_mixin.py:188} INFO - [2024-06-26T07:05:31.058+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/my_dag - Copy.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag - Copy.py", line 5, in <module>
+    import papermill as pm
+ModuleNotFoundError: No module named 'papermill'
+[2024-06-26T07:05:31.074+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag - Copy.py
+[2024-06-26T07:05:31.120+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_dag - Copy.py took 0.142 seconds
